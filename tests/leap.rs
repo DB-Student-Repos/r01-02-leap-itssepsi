@@ -8,7 +8,7 @@ fn test_year_not_divisible_by_4_common_year() {
 }
 
 #[test]
-#[ignore]
+#[ignore] 
 fn test_year_divisible_by_2_not_divisible_by_4_in_common_year() {
     process_leapyear_case(1970, false);
 }
