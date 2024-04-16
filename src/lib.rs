@@ -12,7 +12,6 @@ pub fn is_leap_year(year: u64) -> bool {
 }
 
 fn main() {
-    // Test the is_leap_year function
     let year = 2024;
     if is_leap_year(year) {
         println!("{} is a leap year.", year);
